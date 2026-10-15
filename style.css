@@ -1,0 +1,75 @@
+.lateral{ 
+    width: 30%;    
+    padding: 30px;
+
+    background-color: rgb(241, 147, 39);
+    color: rgb(10, 9, 3);
+
+    text-align: center;
+
+}
+.foto img {
+
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    background-color: darkgray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lateral h2{ 
+    margin: 30px 0 15px;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(19, 17, 17);
+    padding-bottom: 8px ;
+}
+.curriculo{
+    display: flex;
+}
+.conteudo{ width: 70%;
+    padding: 40px;
+
+}
+.conteudo h1{
+    color: rgb(8, 12, 12);
+     border-bottom: 2px solid ;
+     padding-bottom: 8px;
+     margin-bottom: 15px;
+
+
+}
+
+.conteudo section{ 
+    margin-bottom: 30px;
+}
+.conteudo h3{   
+    color: rgb(8, 15, 15);
+     border-bottom: 2px solid ;
+     padding-bottom: 8px;
+     margin-bottom: 15px;}
+
+     .item{  
+         margin-bottom: 25px;
+ }
+ .item span{
+    color: #42b3c7d8;
+    font-size: 14px;
+ }
+  /*RESPONSIVIDADE*/
+
+  @media ( max-width:700px){
+    .curriculo{ flex-direction: column;}
+    .lateral,
+    .conteudo{width: 100%;}
+
+
+
+
+
+
+
+
+
+  }
